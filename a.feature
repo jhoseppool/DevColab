@@ -105,7 +105,7 @@ Como administrador del sistema quiero garantizar que la plataforma opere de form
     When la conexion cae durante "<duracion>" segundos
     Then el sistema muestra el estado "<estado>" y realiza "<intentos>" intentos de reconexion
 
-    Examples:
+   Examples:
       | duracion | estado             | intentos |
       | 5        | Reconectando...    | 5        |
       | 15       | Reconectando...    | 5        |
